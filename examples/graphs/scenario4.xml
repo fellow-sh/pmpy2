@@ -1,0 +1,16 @@
+<?xml-model href="scenario4.xsd"?>
+<cpm mode="aoa">
+    <node id="1" subset="a"/>
+    <node id="2" subset="b"/>
+    <node id="3" subset="b"/>
+    <node id="4" subset="b"/>
+    <node id="5" subset="c"/>
+    <node id="6" subset="d"/>
+    <arrow id="1-2" from="1" to="2" dur="2" />
+    <arrow id="1-3" from="1" to="3" dur="3" />
+    <arrow id="1-4" from="1" to="4" dur="1" />
+    <arrow id="2-5" from="2" to="5" dur="3" />
+    <arrow id="3-5" from="3" to="5" dur="4" />
+    <arrow id="4-6" from="4" to="6" dur="3" />
+    <arrow id="5-6" from="5" to="6" dur="2" />
+</cpm>
